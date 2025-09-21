@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: azure;
+
+}
+header{
+    background-color: #B67E59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 80px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+}
+header a{
+    text-decoration: none;
+    font-style: poppins;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.profile-section{
+    max-width: device-width;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #B67E5990;
+    margin-top: 80px;
+}
+.profile-pic{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.profile-info h1{
+    color: antiquewhite;
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+.profile-info p{
+    font-size: 2.5em;
+    color: white;
+}
+@media (max-width: 768px){
+    .profile-section{
+        flex-direction: column;
+    }
+    .profile-pic{
+        width: 50vw;
+        height: 50vw;
+    }
+    .profile-info h1{
+        font-size: 3em;
+    }
+    .profile-info p{
+        font-size: 1.5em;
+    }
+}
+#about{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #b67e59;
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.6;
+    max-width: device-width;
+    margin: auto;
+}
+#contact{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #b67e5990;
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.6;
+    max-width: device-width;
+    margin: auto;
+}
+section h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+section ul{
+    list-style: none;
+    padding: 0;
+}
+#education{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #b67e59;
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.6;
+    max-width: device-width;
+    margin: auto;
+}
+#skills{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #b67e5990;
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.6;
+    max-width: device-width;
+    margin: auto;
+}
+footer{
+    background-color: #B67E59;
+    text-align: center;
+    padding: 20px 10%;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+    
